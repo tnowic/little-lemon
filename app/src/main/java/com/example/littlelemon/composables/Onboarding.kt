@@ -159,7 +159,7 @@ fun Onboarding(navController: NavHostController) {
                             Toast.makeText(
                                 context,
                                 R.string.registrationSuccessful,
-                                Toast.LENGTH_LONG
+                                Toast.LENGTH_SHORT
                             ).show()
                             navController.navigate(Home.route)
                         } catch (e: IllegalArgumentException) {

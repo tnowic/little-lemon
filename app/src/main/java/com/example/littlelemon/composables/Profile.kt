@@ -137,7 +137,7 @@ fun Profile(navController: NavController) {
                         Toast.makeText(
                             context,
                             R.string.userUnregisteredSuccessfully,
-                            Toast.LENGTH_LONG
+                            Toast.LENGTH_SHORT
                         ).show()
                         navController.navigate(Onboarding.route)
                     }
